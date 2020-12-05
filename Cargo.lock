@@ -4,6 +4,14 @@
 name = "LEDTrue"
 version = "0.1.0"
 dependencies = [
+ "abecele",
+ "sysfs_gpio",
+]
+
+[[package]]
+name = "abecele"
+version = "0.1.0"
+dependencies = [
  "sysfs_gpio",
 ]
 
